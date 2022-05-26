@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:movie_catalog/home_screen.dart';
+import 'package:movie_catalog/widget/main_screen.dart';
 
 
 class SignInScreen extends StatefulWidget {
@@ -125,7 +126,7 @@ class _SignInScreenState extends State<SignInScreen> {
   void _nextToSecondScreen() {
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => HomeScreen(textName: textFieldController.text)),
+      MaterialPageRoute(builder: (context) => const MainScreen()),
     );
   }
 

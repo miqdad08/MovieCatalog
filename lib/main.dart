@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:movie_catalog/home_screen.dart';
 import 'package:movie_catalog/sign_in.dart';
+import 'package:movie_catalog/widget/main_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +13,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       // theme: ThemeData(
@@ -21,3 +23,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
